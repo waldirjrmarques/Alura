@@ -1,0 +1,40 @@
+/* Regra @charset "UTF-8" caso haja problema com acentuação */
+
+@charset "UTF-8";
+
+/*header*/
+@import url(styles/header.css);
+/*banner*/
+@import url(styles/banner.css);
+/*carrosel*/
+@import url(styles/carrossel.css);
+/*Topico*/
+@import url(styles/topico.css);
+/*Contato*/
+@import url(styles/contato.css);
+/*Rodaapé*/
+@import url(styles/rodape.css);
+
+
+
+:root {
+    --cor-de-fundo: #EBECEE;
+    --branco: #FFFFFF;
+    --laranja:#EB9B00;
+    --azul:#002F52;
+    --preto:#000000;
+    --azul-degrad:linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    --font-Poppins:'Poppins','sans-serif';
+    --font-Josefin:'Josefin','sans-serif';
+  
+}
+
+body{
+    background: var(--cor-de-fundo);
+    font-family: var(--font-Poppins);
+    font-size: 16px;
+    font-weight: 400;
+    
+}
+
+
