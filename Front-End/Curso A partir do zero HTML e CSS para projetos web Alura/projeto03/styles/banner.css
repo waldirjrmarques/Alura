@@ -34,3 +34,16 @@
     background-position: 1.5em;
     height: 1.5em;
 }
+
+/* Media Query: telas que tenha a largura minima 1024px */
+
+  /*banner*/
+@media screen and (min-width:1024px){
+  .banner__titulo{
+    font-size: 36px;
+   
+  }
+  .banner__pesquisa{
+    width: 50%;
+  }
+}

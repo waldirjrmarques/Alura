@@ -91,3 +91,36 @@
     font-weight: 600;
     border-radius: 1em;
 }
+
+/* Media Query: telas que tenha a largura minima 1024px */
+
+  /*Carousel*/
+  @media screen and (min-width:1024px){
+    .swiper{
+        width: 65%;
+    }
+    .carrossel__titulo{
+        font-size: 26px;
+        padding: 1em 0 1em 0;  
+    }
+    .swiper-pagination{
+        margin: 2em 0 3em 0;
+    }
+    .swiper-button-prev, .swiper-button-next {
+        display: block;
+        top: 60%;
+    }
+    .swiper-slide{
+        margin: 0 1em 0 1em;
+    }
+
+      /*Card*/
+    .card{
+        width: 50%;
+        margin: 2em auto;
+        padding: 2em;
+    }  
+    .descrição__titulo{
+        font-size: 1.5em;
+    }
+  }

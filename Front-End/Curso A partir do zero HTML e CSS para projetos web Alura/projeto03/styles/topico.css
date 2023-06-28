@@ -26,3 +26,15 @@
    font-size: 14px;
    font-weight: 700;
 }
+
+/* Media Query: telas que tenha a largura minima 1024px */
+
+  /*topico*/
+  @media screen and (min-width:1024px){
+    .topico__titulo{
+        font-size: 1.2em;
+    }
+    .topico__link{
+        font-size: 1.2em;
+    }
+  }

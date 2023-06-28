@@ -38,3 +38,26 @@ hr{
     background-position: left;
     padding-left: 2em;
 }
+
+/* Media Query: telas que tenha a largura minima 1024px */
+
+  /*contato*/
+  @media screen and (min-width:1024px){
+    .contato{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+  .contato__titulo{
+    font-size: 24px;
+  }
+  .contato__texto{
+    font-size: 18px;
+  }
+   .cadastre__email{
+    width: 30%; 
+    margin-left: 5em;
+    padding: auto;
+    }
+   
+  }
