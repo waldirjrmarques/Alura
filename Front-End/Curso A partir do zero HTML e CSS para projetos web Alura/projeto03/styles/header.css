@@ -104,3 +104,25 @@
      } 
    
 }
+
+
+/* Media Query: telas que tenha a largura minima 1728px */
+.container__texto{
+    display: none;
+}
+    /*header*/
+@media screen and (min-width:1728px){
+    .container__texto{
+        display: flex;   
+    } 
+    .container__link{
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: var(--preto);
+        font-size: 20px;
+    } 
+    .opcoes{
+       margin-right: 40%;
+    }
+}

@@ -37,7 +37,6 @@
 
 /* Media Query: telas que tenha a largura minima 1024px */
 
-  /*banner*/
 @media screen and (min-width:1024px){
   .banner__titulo{
     font-size: 36px;
@@ -45,5 +44,12 @@
   }
   .banner__pesquisa{
     width: 50%;
+  }
+}
+
+ /* Media Query: telas que tenha a largura minima 1728px */
+@media screen and (min-width:1728px){
+  .banner{
+    padding: 6em 0;
   }
 }

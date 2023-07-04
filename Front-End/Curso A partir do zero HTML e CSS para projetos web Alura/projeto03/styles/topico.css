@@ -38,3 +38,13 @@
         font-size: 1.2em;
     }
   }
+
+
+  /* Media Query: telas que tenha a largura minima 1728px */
+
+@media screen and (min-width:1728px){
+   .topico{
+    padding: 3em 20vw;
+   } 
+       
+}

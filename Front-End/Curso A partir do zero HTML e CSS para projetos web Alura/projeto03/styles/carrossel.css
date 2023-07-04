@@ -93,8 +93,6 @@
 }
 
 /* Media Query: telas que tenha a largura minima 1024px */
-
-  /*Carousel*/
   @media screen and (min-width:1024px){
     .swiper{
         width: 65%;
@@ -124,3 +122,37 @@
         font-size: 1.5em;
     }
   }
+
+  /* Media Query: telas que tenha a largura minima 1728px */
+
+@media screen and (min-width:1728px){
+    .carrossel__container{
+        display: flex;
+        flex-direction:row ;
+        align-items: center;
+        justify-content: space-around;
+        margin: 0  15vw 3em 15vw;
+      }
+    .swiper{
+        width: 60%;
+    }
+    .swiper-pagination{
+        margin: 1em 0;
+    }
+
+    .card{
+        width: 50%;
+        margin: 3em 0 0 3em;
+        padding: 1em;  
+        width: 60%; 
+    }  
+
+    .descrição__titulo{
+        font-size: 32px;
+    }
+
+    .descricao__texto{
+        font-size: 16px;
+    }
+       
+}
