@@ -1,0 +1,88 @@
+html, body {
+  font-family: "Lato", "sans-serif";
+}
+
+.titulo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url(imagens/image1.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  opacity: 0.75;
+}
+.titulo .titulo__principal {
+  font-family: "Lato", "sans-serif";
+  font-weight: 600;
+  font-size: 27px;
+  background-color: #282E34;
+  color: white;
+  padding: 1.5rem;
+  letter-spacing: 0.5rem;
+}
+
+.secao__texto {
+  padding: 50px 80px;
+}
+.secao__texto h2 {
+  font-family: "Lato", "sans-serif";
+  margin: 19px 0 19px 0;
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 29px;
+  text-align: center;
+  opacity: 0.75;
+}
+.secao__texto p {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.8em;
+  text-align: center;
+  opacity: 0.75;
+}
+
+#secao01 {
+  color: #585858;
+  background-color: #F4F4F4;
+}
+
+#secao03 {
+  color: white;
+  background-color: #282E34;
+}
+
+#secao05 {
+  color: white;
+  background-color: #282E34;
+}
+
+.secao__img {
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.secao__img span {
+  font-size: 1.5em;
+  font-weight: bold;
+  letter-spacing: 8px;
+  color: white;
+}
+
+#secao02 {
+  background-image: url(imagens/image2.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  opacity: 0.75;
+}
+
+#secao04 {
+  background-image: url(imagens/image3.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  opacity: 0.75;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,21 @@
+
+@import "../abstract/variaveis";
+
+/* Media Query: telas que tenha a largura menor que 720px (Celular)*/
+
+
+
+/* Media Query: telas que tenha a largura minima 720px (Tablet) */
+@media(min-width: 720px) {
+
+}
+
+/* Media Query: telas que tenha a largura minima 1024px (Notebook)*/
+@media screen and (min-width:1024px){
+    
+}
+
+/* Media Query: telas que tenha a largura minima 1728px (Desktop/TV)*/
+@media screen and (min-width:1728px){
+    
+}

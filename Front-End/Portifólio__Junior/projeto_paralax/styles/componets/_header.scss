@@ -1,0 +1,28 @@
+
+@import "../abstract/variaveis";
+
+//Titulo
+.titulo{
+    display:flex;
+        align-items: center;
+        justify-content: center;
+    height: 100vh;
+    background-image: url(imagens/image1.jpg);
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+    opacity: 0.75; 
+
+   .titulo__principal{
+    
+        font-family: $fonte;
+        font-weight: 600;
+        font-size: 27px; 
+        background-color:$cor-fundo1;
+        color: $cor-letra1;
+        padding: 1.5rem;
+        letter-spacing:0.5rem;
+         
+   }
+
+}

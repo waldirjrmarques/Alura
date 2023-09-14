@@ -1,0 +1,48 @@
+//Variaveis
+$cor-pricipal:blueviolet;
+$cor-secundario:aquamarine;
+
+//Criando Função
+@mixin reset{
+    margin: 0;
+    padding: 0;
+}
+
+//criando função com parametro
+@mixin cor-e-texto($cor-de-fundo, $cor-de-texto){
+    display: flex;
+        justify-content: center;
+        align-items: center;
+    width: 50%;
+    background-color: $cor-de-fundo;
+    .texto{
+    font-size: 100px;
+    color: $cor-de-texto;
+    }
+}
+
+body{
+    //Incluindo a função reset
+    @include reset();
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    .esquerdo{
+        //Incluindo a função cor-e-texto
+       @include cor-e-texto($cor-pricipal, $cor-secundario);
+    }
+    .direito{
+        display: flex;
+            justify-content: center;
+            align-items: center;
+        width: 50%;
+        background-color: $cor-secundario;
+        .texto{
+            font-size: 100px;
+            color: $cor-pricipal;
+        }
+    }
+}
+

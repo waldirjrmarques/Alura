@@ -1,0 +1,124 @@
+
+ @import "../abstract/variaveis";
+
+
+
+ //Titulo
+ .titulo{
+    font-family: $fonte;
+    text-align: center;
+    .titulo__h1{
+        font-size: 3rem;
+        font-weight: 600;
+        margin: 30px 0 10px 0;
+        
+    }
+    .paragrafo__titulo{
+        font-size: 1.5rem;
+        font-weight: 400;
+        font-style: italic;
+    }
+ }
+
+
+//Formulario
+ .formulario{
+    font-family:$fonte;
+    background-color: $cor-fundo-formulario;
+    margin: 5% 10% 0 10%;
+    border-radius: 7px;
+    padding: 5% ;
+
+    .secao{
+        display: flex;
+            flex-direction: column;
+            align-content: center;
+            gap:0.5rem; 
+
+        margin-bottom: 2rem;
+        font-weight: 600;   
+        font-size: larger;  
+
+        p{
+            margin-bottom: 0.5rem;
+        }
+        .form-control{
+            height: 2.5rem;
+            padding-left: 0.5rem;
+            border-radius: 0.3rem;
+            outline:none;
+            border: 1px solid $cor-pleaceholder;
+        }
+        .form-control:focus{
+            border-color: $cor-borda;
+            box-shadow: 0 0 0 0.2rem $cor-sombra;
+        }
+        .form-control::placeholder, option,.form-control{
+            font-family: $fonte;
+            font-size: 1rem;
+            font-weight: 600;
+            color: $cor-pleaceholder;
+
+        }
+        label{
+            display: flex;
+                align-items: center;
+        
+            .input-radio , .input-checkbox {
+                margin-right: 0.625rem;
+                min-height: 1.25rem;
+                min-width: 1.25rem;
+    
+            }
+        }
+        .input-textarea{
+            font-family: $fonte;
+            font-size: 1rem;
+            font-weight: 600;
+            border-radius: 0.3rem;
+            outline:none;
+            border: 1px solid $cor-pleaceholder;
+
+            min-height: 120px;
+            width: 100%;
+            padding: 0.625rem;
+            resize: vertical;
+        }
+        .input-textarea:focus{
+            border-color: $cor-borda;
+            box-shadow: 0 0 0 0.2rem $cor-sombra;
+        }
+
+        .submit-button{
+            border-radius: 0.3rem;
+            height: 3rem;
+            background-color: $cor-botao;
+            outline: none;
+            border: none;
+            color: $cor-letra;
+            font-weight: 600;
+            font-size: medium;
+
+        }
+        
+    }
+}
+
+
+
+
+
+
+@media(min-width: 720px) {
+
+}
+
+
+@media screen and (min-width:1024px){
+    
+}
+
+
+@media screen and (min-width:1728px){
+    
+}

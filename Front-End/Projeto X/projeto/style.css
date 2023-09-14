@@ -1,0 +1,35 @@
+/* Regra @charset "UTF-8" caso haja problema com acentuação */
+
+@charset "UTF-8";
+
+/*header*/
+@import url(styles/header.css);
+
+/*nav*/
+@import url(styles/nav.css);
+
+/*main*/
+@import url(styles/main.css);
+
+/*Rodaapé*/
+@import url(styles/footer.css);
+
+
+
+:root {
+    /*Cores*/
+    --nome-da-cor: #EBECEE;
+
+    /*Fontes*/
+    --font-nome-da-fonte:' ','sans-serif';
+  
+}
+
+body{
+    /*Configuraçoes gerais 
+    Fonte
+    Cor
+    */
+}
+
+

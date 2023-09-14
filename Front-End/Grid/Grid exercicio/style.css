@@ -1,0 +1,47 @@
+/**Grip pai*/
+body{
+    display: grid;
+    grid-template-areas:
+    "header header header"
+    "aside main main"
+    "footer footer footer";   
+        /* 3 colulas e 3 linhas*/
+    
+    grid-template-columns: 
+        20vw auto auto; /* repeat (4,auto); */
+        /*tamanho das colunas*/
+
+    grid-template-rows: 
+        20vh 
+        70vh
+        10vh; 
+    /*tamanho das linas*/
+
+    gap: 1rem;    
+}
+
+/*Grid filhos*/
+.o-header {
+    grid-area: header;
+    }
+    
+    .o-aside {
+    grid-area: aside;
+    }
+    
+    .o-main {
+    grid-area: main;
+    }
+    
+    .o-footer {
+    grid-area: footer;
+    }
+
+/*estilizando os filhos */
+.o-header, .o-aside, .o-main, .o-footer {
+    background: #BC20E2;
+    color: #FDFDFD;
+}    
+
+/*
+grid-template-columns: repeat(auto-fit, minmax(min(100%/2, max(349px,100/3)))); */

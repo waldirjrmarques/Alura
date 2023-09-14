@@ -1,0 +1,106 @@
+
+.container__principal{
+    height: 100vh;
+    /*Flex-container*/
+    display: flex;
+        /*propriedade define em qual direção o contêiner deseja empilhar os itens flexíveis*/
+        flex-direction:; 
+            /*
+                column
+                column-reverse
+                row
+                row-reverse
+            */
+
+        /*propriedade especifica se os itens flexíveis devem ser encapsulados[quebrada] ou não*/
+        flex-wrap:wrap;
+            /*
+               wrap
+               nowrap 
+               wrap-reverse
+            */
+
+        /*propriedade é uma propriedade abreviada para definir as propriedades flex-directione flex-wrap.*/
+        flex-flow:;
+            /*
+                row wrap
+            */
+
+        /*propriedade é usada para alinhar os itens flexíveis na horizontal*/
+        justify-content:space-between;
+            /*
+                center
+                flex-start
+                flex-end
+                space-around
+                space-between
+            */
+
+        /*propriedade é usada para alinhar os itens flexíveis na Vertical*/    
+        align-items:;
+            /*
+                center
+                flex-start
+                flex-end
+                stretch
+                baseline
+            */
+
+        /*propriedade é usada para alinhar as linhas flexíveis*/
+        align-content:;
+            /*
+               space-between
+               space-around
+               stretch
+               center
+               flex-start
+               flex-end
+            */
+        gap: 1em;
+}
+
+.container__item{
+    background-color: blueviolet;
+    color: white;
+    height: 10em;
+    width: 10em;
+
+    /*Flex-item*/
+        /*A propriedade order pode alterar a ordem dos itens flexíveis*/
+        order:;
+
+        /*propriedade especifica quanto um item flexível crescerá em relação ao restante dos itens flexíveis*/
+        flex-grow: ;
+
+        /*propriedade especifica quanto um item flexível encolherá em relação ao restante dos itens flexíveis. */
+        flex-shrink: 0;
+
+        /*propriedade especifica o comprimento inicial de um item flexível. */
+        flex-basis:;
+
+        /*propriedade é uma propriedade abreviada para as propriedades flex-grow, flex-shrinke flex-basis */
+        flex: ;
+
+        /*propriedade especifica o alinhamento do item selecionado dentro do contêiner flexível
+        propriedade substitui o alinhamento padrão definido pela align-items propriedade do contêiner */
+        align-self:;
+            /*
+                center
+                flex-start
+                flex-end
+            */
+}
+
+.container__i{
+    background-color: blueviolet;
+    color: white;
+    height: 10em;
+    width: 10em;
+
+    align-self: center;
+}
+
+
+
+
+

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <!--Reset css-->
+    <link rel="stylesheet" href="reset.css">
+
+    <!--CSS Prrincipal-->
+    <link rel="stylesheet" href="style.css">
+
+    <!--Fonte-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,400&display=swap" rel="stylesheet">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nome Site</title>
+</head>
+<body>
+    <!--Header-->
+    <header class="header">
+    </header>
+
+    <!--Nav-->
+    <nav class="nav">
+    </nav>
+
+    <!--Main-->
+    <main class="main"> 
+        <!--Titulo Formulário-->
+        <section class="titulo">
+            <h1 class="titulo__h1">Formulário de Pesquisa </h1>
+            <p class="paragrafo__titulo">Obrigado por dedicar seu tempo para nos ajudar a melhorar a plataforma</p>
+        </section> 
+        <!--Formulário-->
+        <form action="" class="formulario">
+            <!--Seção Nome-->
+            <section class="secao">
+                <label id="name-label" for="name">Nome</label>
+                <input class="form-control" type="text" name="name" id="name" placeholder="Informe seu nome">
+            </section>
+
+            <!--Seção Email-->
+            <section class="secao">
+                <label id="" for="email">Email</label>
+                <input class="form-control" type="text" name="email" id="email" placeholder="Informe seu Email">
+            </section>
+
+            <!--Seção Idade-->
+            <section class="secao">
+                <label id="email-label" for="idade">Idade</label>
+                <input class="form-control" type="number" name="idade" id="idade" placeholder="Idade">
+            </section>
+
+            <!--Seção Opção-01-->
+            <section class="secao">
+                <p>Qual opção melhor descreve sua função atual?</p>
+                <select class="form-control" name="role" id="dropdown">
+                    <option disabled selected value>Selecione uma opção</option>
+                    <option value="estudante">Estudante</option>
+                    <option value="trabalho">Trabalho em tempo integral</option>
+                    <option value="aprendiz">Aprendiz em tempo integral</option>
+                    <option value="naoinformado">Prefiro não dizer</option>
+                    <option value="outros">Outros</option>
+                </select>
+            </section>
+
+            <!--Seção Multipla-Escolha-01-->
+            <section class="secao">
+                <p>Você recomendaria o freeCodeCamp a um amigo?</p>
+                <label>
+                    <input class="input-radio" type="radio" name="user-recommend" value="definitivamente" checked>
+                    Definitivamente
+                </label>
+                <label>
+                    <input class="input-radio" type="radio" name="user-recommend" value="talvez">
+                    Talvez
+                </label>
+                <label>
+                    <input class="input-radio" type="radio" name="user-recommend" value="nao-tenho-certeza">
+                    Não tenho certeza
+                </label>
+                
+            </section>
+
+            <!--Seção Opção-02-->
+            <section class="secao">
+                <p>Qual é o seu recurso favorito do freeCodeCamp?</p>
+                <select class="form-control" name="mostLike" id="most-like">
+                    <option disabled selected value>Selecione uma opção
+                    </option>
+                    <option value="desafios">Desafios</option>
+                    <option value="projetos">Projetos</option>
+                    <option value="comunidade">Comunidade</option>
+                    <option value="codigo-aberto">Código aberto</option>
+                </select>
+            </section>
+
+            <!--Seção Multipla-Escolha-02-->
+            <section class="secao">
+                <P>O que você gostaria de ver melhorado? <span class="span">(Marque todos os que se aplicam)</span></P>
+                <label>
+                    <input class="input-checkbox" name="prefer" value="front-end-Projetos" type="checkbox">
+                    Front-end Projetos
+                </label>
+                <label>
+                    <input class="input-checkbox" name="prefer" value="back-end-projects" type="checkbox">
+                    Back-end Projetos
+                </label>
+                <label>
+                    <input class="input-checkbox" name="prefer" value="Visualização-de-dados" type="checkbox">
+                    Data Visualization
+                </label>
+                <label>
+                    <input class="input-checkbox" name="prefer" value="desafios" type="checkbox">
+                    Desafios
+                </label>
+                <label>
+                    <input class="input-checkbox" name="prefer" value="Comunidade de-código-aberto
+                    " type="checkbox">
+                    Comunidade de código aberto
+                </label>
+                <label>
+                    <input class="input-checkbox" name="prefer" value="Salas-de-ajuda-do-Gitter" type="checkbox">
+                    Salas de ajuda do Gitter
+                </label>
+                <label>
+                    <input class="input-checkbox" name="prefer" value="Videos" type="checkbox">
+                    Videos
+                </label>
+                <label>
+                    <input class="input-checkbox" name="prefer" value="Encontros-da-cidade" type="checkbox">
+                    Encontros da cidade
+                </label>
+                <label>
+                    <input class="input-checkbox" name="prefer" value="Fórum" type="checkbox">
+                    Fórum
+                </label>
+                <label>
+                    <input class="input-checkbox" name="prefer" value="Cursos-adicionais" type="checkbox">
+                    Cursos adicionais
+                </label>
+
+            </section>
+
+            <!--Seção Comentário-->
+            <section class="secao">
+                <p>Algum comentário ou sugestão?</p>
+                <textarea class="input-textarea" name="comment" id="comment" placeholder="Digite seu comentário aqui..." cols="30" rows="10"></textarea>
+            </section>
+
+            <!--Seção Button-->
+            <section class="secao">
+                <button class="submit-button" type="submit" id="submit">Enviar</button>
+            </section>
+        </form>
+    </main>
+   
+    <!--Rodape-->
+    <footer class="footer"> 
+        
+    </footer>
+
+</body>
+</html>

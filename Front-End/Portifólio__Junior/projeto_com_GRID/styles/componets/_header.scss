@@ -1,0 +1,55 @@
+@import "../abstract/variaveis";
+
+.header{
+    display: grid;
+            grid-template-columns: 1fr repeat(2, minmax(auto, 28em)) 1fr; 
+           
+            background: #333 url(imagens/image-asset.jpeg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 100%;
+            min-height: 450px;
+            z-index: -1;
+            opacity: 0.8;
+        
+        .header__conteudo{
+            color: $cor-branca;
+            padding: 5rem 1.5em;
+            grid-column: 2/4;
+
+            display: flex;
+                flex-direction: column;
+                align-items: center;
+                align-content: center;
+                justify-content: center;
+                text-align: center;
+
+                h1{
+                    font-size: 2em;
+                    font-weight: 700;
+                }
+
+                p{
+                    padding: 2em 0;
+                    font-size: 1.1em;
+                    line-height: 1.8rem;
+                }
+                a{
+                    padding: 1.2rem 2rem;
+                    font-size: 1.1em; 
+                    border: 1px solid $cor-branca;
+                    text-decoration: none;
+                    color: $cor-branca;
+                    &:hover{
+                        background-color: $cor-branca;
+                        color:$cor-cinza;
+                    }
+                }
+
+        }
+}
+
+@media(min-width: 720px) {
+
+}

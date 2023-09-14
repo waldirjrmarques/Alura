@@ -1,0 +1,175 @@
+
+ @import "../abstract/variaveis";
+.secao01{
+    color: $cor-cinza;
+    background-color: $cor-branca;
+            display: grid;
+            grid-template-columns: 1fr repeat(2, minmax(auto, 28em)) 1fr;
+    
+    .secao01__conteudo{
+        grid-column:  2/ 4;
+        padding: 1.5em;
+        display: flex;
+                flex-direction: column;
+                align-items: center;
+                align-content: center;
+                line-height: 1.8rem;
+            h2{
+                padding: 1em 0;
+                font-size: 1.5em;
+                font-weight: 700;
+            }
+            p{
+                columns: 1;
+                font-size: 1.1em;
+                text-align: center;
+            }   
+    }
+}
+
+.secao02{ 
+    background-color: $cor-cinza;
+    padding: 2em 1em ;
+    .section{
+        min-height: 400px;
+        background-color: $cor-cinza;
+            display: grid;
+            grid-template-columns: 1fr repeat(2, minmax(auto, 28em)) 1fr;
+        ul{
+            grid-column:  2/ 4;
+            grid-row:  1/ 1;
+            min-height: 500px;
+            display:flex;
+                flex-direction: column;
+                justify-content:space-around;
+                row-gap: 1.2rem;
+            li{
+               color: $cor-cinza;
+               background-color:$cor-branca;
+               height: auto;
+               width: 100%;
+                
+               img{
+                width:100%;
+               }
+               .text__card{
+                padding: 1rem;
+                text-align: center;
+                vertical-align:baseline;
+                .card__h3{
+                    padding: 1em 0;
+                    font-size: 1.17em;
+                    font-weight: 700;
+                }
+                .card__p{
+                    padding: 2em 0;
+                    font-size: 1.1em;
+                    line-height: 1.8rem;
+                }
+               }
+            }
+        }
+    }
+ }
+
+.secao03{
+    color: $cor-cinza;
+    background-color: $cor-branca;
+            display: grid;
+            grid-template-columns: 1fr repeat(2, minmax(auto, 28em)) 1fr;
+    
+    .secao01__conteudo{
+        grid-column:  2/ 4;
+        padding: 1.5em;
+        display: flex;
+            flex-direction: column;
+            align-items: center;
+            align-content: center;
+            line-height: 1.8rem;
+            h2{
+                padding: 1.5em 0;
+                font-size: 1.5em;
+                font-weight: 700;
+            }
+            p{
+                padding: 1.5em 0;
+                font-size: 1.1em;
+                text-align: center;
+            }   
+    }
+}
+
+.secao04{
+    color: $cor-branca;
+            display: grid;
+            grid-template-columns: 1fr repeat(2, minmax(auto, 28em)) 1fr;
+
+    #secao04__01{
+        grid-column: 1 / 5;
+        background-color: $cor-azul;
+    }
+    #secao04__02{
+        grid-column:  1/ 5;
+        background-color: $cor-cinza;
+    }
+    .secao04__conteudo{
+        padding: 1.5em;
+        display: flex;
+            flex-direction: column;
+            align-items: center;
+            align-content: center;
+            line-height: 1.8rem;
+            text-align: center;
+
+            h2{
+                padding: 1em 0;
+                font-size: 1.5em;
+                font-weight: 700;
+            }
+
+            p{
+                font-size: 1.1em;
+                padding: 1em 0;
+            }   
+    }
+}
+
+@media(min-width: 720px) {
+
+    .secao01{
+        .secao01__conteudo{
+                p{
+                    columns: 2; 
+                }   
+        }     
+    }
+
+    .secao02{ 
+        .section{
+            ul{
+                display:flex;
+                flex-direction: row; 
+                li{
+                width: 30%;
+                img{
+                    width:100%;
+                    }
+                }
+            }
+        } 
+    }
+
+    .secao04{
+        #secao04__01{
+            grid-column: 1 / 3;
+        }
+        #secao04__02{
+            grid-column:  3/ 5;
+        
+        }   
+    }
+
+
+}
+
+

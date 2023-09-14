@@ -1,0 +1,111 @@
+html, body {
+  font-family: "Lato", sans-serif;
+  background-color: #6565B2;
+  color: white;
+}
+
+/* Media Query: telas que tenha a largura menor que 720px (Celular)*/
+/* Media Query: telas que tenha a largura minima 720px (Tablet) */
+/* Media Query: telas que tenha a largura minima 1024px (Notebook)*/
+/* Media Query: telas que tenha a largura minima 1728px (Desktop/TV)*/
+/* Media Query: telas que tenha a largura menor que 720px (Celular)*/
+/* Media Query: telas que tenha a largura minima 720px (Tablet) */
+/* Media Query: telas que tenha a largura minima 1024px (Notebook)*/
+/* Media Query: telas que tenha a largura minima 1728px (Desktop/TV)*/
+.titulo {
+  font-family: "Lato", sans-serif;
+  text-align: center;
+}
+.titulo .titulo__h1 {
+  font-size: 3rem;
+  font-weight: 600;
+  margin: 30px 0 10px 0;
+}
+.titulo .paragrafo__titulo {
+  font-size: 1.5rem;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.formulario {
+  font-family: "Lato", sans-serif;
+  background-color: #262444;
+  margin: 5% 10% 0 10%;
+  border-radius: 7px;
+  padding: 5%;
+}
+.formulario .secao {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+  font-weight: 600;
+  font-size: larger;
+}
+.formulario .secao p {
+  margin-bottom: 0.5rem;
+}
+.formulario .secao .form-control {
+  height: 2.5rem;
+  padding-left: 0.5rem;
+  border-radius: 0.3rem;
+  outline: none;
+  border: 1px solid #757575;
+}
+.formulario .secao .form-control:focus {
+  border-color: #80bdff;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+.formulario .secao .form-control::-moz-placeholder {
+  font-family: "Lato", sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #757575;
+}
+.formulario .secao .form-control::placeholder, .formulario .secao option, .formulario .secao .form-control {
+  font-family: "Lato", sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #757575;
+}
+.formulario .secao label {
+  display: flex;
+  align-items: center;
+}
+.formulario .secao label .input-radio, .formulario .secao label .input-checkbox {
+  margin-right: 0.625rem;
+  min-height: 1.25rem;
+  min-width: 1.25rem;
+}
+.formulario .secao .input-textarea {
+  font-family: "Lato", sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 0.3rem;
+  outline: none;
+  border: 1px solid #757575;
+  min-height: 120px;
+  width: 100%;
+  padding: 0.625rem;
+  resize: vertical;
+}
+.formulario .secao .input-textarea:focus {
+  border-color: #80bdff;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+.formulario .secao .submit-button {
+  border-radius: 0.3rem;
+  height: 3rem;
+  background-color: #37AF65;
+  outline: none;
+  border: none;
+  color: white;
+  font-weight: 600;
+  font-size: medium;
+}
+
+/* Media Query: telas que tenha a largura menor que 720px (Celular)*/
+/* Media Query: telas que tenha a largura minima 720px (Tablet) */
+/* Media Query: telas que tenha a largura minima 1024px (Notebook)*/
+/* Media Query: telas que tenha a largura minima 1728px (Desktop/TV)*//*# sourceMappingURL=style.css.map */

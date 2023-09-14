@@ -1,0 +1,71 @@
+@import "../abstract/variaveis";
+.footer{
+    color: $cor-branca;
+    padding: 2rem;
+    background-color: $cor-preta;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        line-height: 1.8rem;
+        text-align: center;
+           
+    .footer__conteudo{ 
+        h2{  
+            font-size: 1.5em;
+            font-weight: 700;
+        }
+        p{
+            font-size: 1.1em;
+            a{
+                text-decoration: none;
+                color: $cor-azul;
+            }
+        }   
+    }
+}
+
+
+@media(min-width: 720px) {
+    .footer{
+        padding: 1rem;
+        color: $cor-branca;
+        background-color: $cor-preta;
+                display: grid;
+                grid-template-columns: 1fr repeat(2, minmax(auto, 28em)) 1fr;
+    
+        #footer__01{
+            grid-column: 1 / 3;
+           
+        }
+        #footer__02{
+            grid-column:  3/ 5;
+         
+        }
+        .footer__conteudo{
+            padding: 1em;
+            display: flex;
+                flex-direction: column;
+                align-items: center;
+                align-content: center;
+                line-height: 1.8rem;
+                text-align: center;
+    
+                h2{
+                    padding: 1em 0;
+                    font-size: 1.5em;
+                    font-weight: 700;
+                }
+    
+                p{
+                    font-size: 1.1em;
+                    padding: 1em 0;
+    
+                    a{
+                        text-decoration: none;
+                        color: $cor-azul;
+                    }
+                }   
+        }
+    }
+}
